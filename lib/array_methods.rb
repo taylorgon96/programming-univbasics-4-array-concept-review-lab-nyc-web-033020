@@ -4,7 +4,7 @@ end
 
 def find_max_value(array)
  array.max_by do |x|
-   puts x.length 
+   puts x.size 
   end 
 end
 
