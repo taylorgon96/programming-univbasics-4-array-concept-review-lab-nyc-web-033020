@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
-  array.each do |i| 
+ araay.find_index { |i| i  == value }  #=> 34
   end 
 end 
  
