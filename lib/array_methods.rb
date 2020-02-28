@@ -3,8 +3,8 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  array.max_by do |i|
-    puts i
+  array.max_by do |array|
+    puts array
 end
 
 end
