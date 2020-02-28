@@ -1,8 +1,8 @@
 def find_element_index(array, value_to_find)
   array.index each do |array|
     if array == #{value}
-      puts return
-    else 
+      puts array
+    else array != #{value}
       nil
     end 
   end 
