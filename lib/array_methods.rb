@@ -5,7 +5,7 @@ end
 def find_max_value(array)
   
 array.max_by do |element|
-  element.field
+ return element.field
   
 end
 end
